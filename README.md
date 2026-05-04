@@ -46,7 +46,7 @@ playwright install
 
 ---
 
-## Run the Automation
+## Run the Automation (Remove Last Two Columns First)
 
 ```cmd
 python test_automation.py --excel "IT23157446_ITPM_test_automation/IT23157446.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
