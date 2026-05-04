@@ -49,15 +49,15 @@ playwright install
 ## Run the Automation
 
 ```cmd
-python test_automation.py --excel "IT23157446.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
+python test_automation.py --excel "IT23157446_ITPM_test_automation/IT23157446.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
 ```
 
-| Argument | Purpose |
-| :--- | :--- |
-| `--excel` | Path to your test case file |
-| `--url` | Application URL |
-| `--wait-ms` | Wait time for translation (ms) |
-| `--type-delay-ms` | Delay between keystrokes |
-| `--slow-mo-ms` | Slows Playwright actions |
-| `--save-every` | Save Excel after every N tests |
-| `--keep-open` | Keep browser open after run |
+| Argument          | Purpose                        |
+| :---------------- | :----------------------------- |
+| `--excel`         | Path to your test case file    |
+| `--url`           | Application URL                |
+| `--wait-ms`       | Wait time for translation (ms) |
+| `--type-delay-ms` | Delay between keystrokes       |
+| `--slow-mo-ms`    | Slows Playwright actions       |
+| `--save-every`    | Save Excel after every N tests |
+| `--keep-open`     | Keep browser open after run    |
