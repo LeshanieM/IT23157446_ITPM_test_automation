@@ -1,7 +1,6 @@
 # Test Automation Project – Chat Translator
 
-**BSc (Hons) in Information Technology – Year 3**  
-**IT3040 – ITPM | Assignment 1 (Option 1)**
+**BSc (Hons) in Information Technology – Year 3**  | **IT3040 – ITPM | Assignment 1 (Option 1)**
 
 ---
 
@@ -17,8 +16,7 @@ Identify **50 failure cases** (minimum 2 cases per the 24 Singlish input types) 
 ## What's Included
 
 - `test_automation.py` – Playwright automation script
-- `IT23157446.xlsx` – Test case file (rename with your registration number)
-
+- `IT23157446.xlsx` – Test case file 
 ---
 
 ## Setup Instructions
